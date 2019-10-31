@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Statistical Definitions</title>
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<!-- https://mootools.net/core -->
+	<script type="text/javascript" src="scripts/mootools-core-1.3.1.js"></script>
+	<!-- http://worrydream.com/Tangle/ -->
+    <script type="text/javascript" src="scripts/Tangle.js"></script>
+	<!-- http://worrydream.com/TenBrighterIdeas/ -->
+    <script type="text/javascript" src="scripts/main.js"></script>
+</head>
+
+<body>
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<!-- a1a  ("Sample data and observation") -->
+
+<div id="a1a_analysis" class="analysis">
+
+<img src="images/data_vs_observation.png" alt="definition of sample data vs observation" width="50%"/>
+
+<h2>Sample data</h2>
+Data that have been collected when measurements have been taken from a subset of a population.
+
+<h2>Observation or observation unit</h2>
+Individual entity in a study. An individual measurement.
+
+</div> <!-- a1a_analysis -->
+
+<!-- a2a  ("A variable") -->
+
+<div id="a2a_analysis" class="analysis">
+
+<img src="images/define_variable.png" alt="definition of a variable" width="50%"/>
+
+<h2>A variable</h2>
+A characteristic that may differ among individuals.
+
+</div> <!-- a2a_analysis -->
+
+<!-- a2b  ("Variable types") -->
+
+<div id="a2b_analysis" class="analysis">
+
+<img src="images/variable_types.png" alt="types of variable" width="75%"/>
+
+<h2>Categorical variable</h2>
+Raw data consists of category (groups) names that <strong>don't necessarily</strong> have any logical ordering.
+
+<h3>Ordinal variable</h2>
+Ordered categorical variable.
+
+<h2>Quantitative variable</h2>
+Raw data of numerical measurements or counts taken on each individual.
+
+</div> <!-- a2b_analysis -->
+
+<!-- a3a  ("Two-way table aka contingency table") -->
+
+<div id="a3a_analysis" class="analysis">
+
+<img src="images/two_way_contingency_table.png" alt="types of variable" width="75%"/>
+
+<h2>Two-way table (contingency table)</h2>
+Table of counts of individuals falling into <strong>each possible combination</strong> of <strong>categories of two categorical variables</strong>.
+
+<h3>Row percentages</h2>
+Percentages within a row of a contingency table.
+
+<h3>Column percentages</h3>
+Percentages within a column of a contingency table.
+
+</div> <!-- a3a_analysis -->
+
+<!-- a4a  ("Independent samples") -->
+
+<div id="a4a_analysis" class="analysis">
+
+Individuals in one sample are <strong>not coupled in anyway</strong> with individuals in other sample. Measurements in one sample are not related to the measurements in the other sample.
+
+<h2>Parameters of interest for quantitative variable</h2>
+Difference in two population means, &mu;<sub>1</sub> &minus; &mu;<sub>2</sub>.
+
+</div> <!-- a4a_analysis -->
+
+<!-- a4b  ("Independent sampling 1") -->
+
+<div id="a4b_analysis" class="analysis">
+
+<img src="images/independent_samples1.png" alt="random samples from two populations" width="100%"/>
+
+<ul>
+<li>Random samples are taken separately from two populations,</li>
+<li>the same response variable is recorded from each individual.</li>
+</ul>
+
+</div> <!-- a4b_analysis -->
+
+<!-- a4c  ("Independent sampling 2") -->
+
+<div id="a4c_analysis" class="analysis">
+
+<img src="images/independent_samples2.png" alt="one random sample then categorized into two populations" width="100%"/>
+
+<ul>
+<li>One random sample is taken,</li>
+<li>a variable is recorded from each individual,</li>
+<li>each individual is categorized as belonging to one or other population.</li>
+</ul>
+
+</div> <!-- a4c_analysis -->
+
+<!-- a4d  ("Independent sampling 3") -->
+
+<div id="a4d_analysis" class="analysis">
+
+<img src="images/independent_samples3.png" alt="individuals randomly assigned to one of two treatment conditions" width="75%"/>
+
+<ul>
+<li>Randomly assign participants into one of two treatment conditions,</li>
+<li>record same variable from each individual.</li>
+</ul>
+
+</div> <!-- a4d_analysis -->
+
+<!-- a4e  ("Independent sampling 4") -->
+
+<div id="a4e_analysis" class="analysis">
+
+<img src="images/independent_samples4.png" alt="two random samples from a population" width="100%"/>
+
+<ul>
+<li>Two random samples taken from a population,</li>
+<li>a separate variable is measured in each sample,</li>
+<li>results are compared.</li>
+</ul>
+
+</div> <!-- a4e_analysis -->
+
+<!-- a5a  ("Dependent samples a.k.a paired data") -->
+
+<div id="a5a_analysis" class="analysis">
+
+Samples taken as matched pairs because two values for a pair are <strong>not</strong> statistically independent.
+
+<h2>Parameters of interest for quantitative variable</h2>
+Population mean of paired difference, &mu;<sub>d</sub>.
+
+</div> <!-- a5a_analysis -->
+
+<!-- a5b  ("Dependent sampling 1") -->
+
+<div id="a5b_analysis" class="analysis">
+
+<img src="images/paired_data1.png" alt="measured twice under different conditions or times" width="75%"/>
+
+<ul>
+<li>On each individual the same measurement is taken twice,</li>
+<li>either under different conditions,</li>
+<li>or at different times.</li>
+</ul>
+
+</div> <!-- a5c_analysis -->
+
+<!-- a5c  ("Dependent sampling 2") -->
+
+<div id="a5c_analysis" class="analysis">
+
+<img src="images/paired_data2.png" alt="pair similar individuals with each receiving different treatments" width="75%"/>
+
+<ul>
+<li>Similar individuals are paired,</li>
+<li>each pair member receives a different treatment,</li>
+<li>same response variable is measured.</li>
+</ul>
+
+</div> <!-- a5c_analysis -->
+
+</div> <!-- a5c_analysis -->
+
+<!-- a5d  ("Dependent sampling 3") -->
+
+<div id="a5d_analysis" class="analysis">
+
+<img src="images/paired_data3.png" alt="two different variables for each individual" width="75%"/>
+
+<ul>
+<li>For each individual two different variables are measured,</li>
+<li>results are compared.</li>
+</ul>
+
+</div> <!-- a5d_analysis -->
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<!-- brochure -->
+
+<div id="brochure">
+
+<div class="brochureHeader">Statistical Definitions</div>
+<div class="brochureBody">
+
+<div class="brochureIdea">
+    <div class="brochureNumber">1</div>
+    <div class="brochureClaim" id="a1a_claim">Sample data and observation</div>
+</div>
+
+<div class="brochureIdea">
+    <div class="brochureNumber">2</div>
+    <div class="brochureClaim" id="a2a_claim"><ul><li>Statistical variable</li></ul></div>
+	<div class="brochureClaim" id="a2b_claim"><ul><li>Variable types</li></ul></div>
+</div>
+
+<div class="brochureIdea">
+    <div class="brochureNumber">3</div>
+    <div class="brochureClaim" id="a3a_claim">Two-way table a.k.a contingency table</div>
+</div>
+
+<div class="brochureIdea">
+    <div class="brochureNumber">4</div>
+    <div class="brochureClaim" id="a4a_claim">Independent samples</div>
+	<div class="brochureClaim" id="a4b_claim"><ul><li>Random samples taken separately from two populations.</li></ul></div>
+	<div class="brochureClaim" id="a4c_claim"><ul><li>One random sample and categorization into two populations.</li></ul></div>
+	<div class="brochureClaim" id="a4d_claim"><ul><li>Individuals randomly assigned to one of two treatment conditions.</li></ul></div>
+	<div class="brochureClaim" id="a4e_claim"><ul><li>Two random samples taken from a population.</li></ul></div>
+</div>
+
+<div class="brochureIdea">
+    <div class="brochureNumber">5</div>
+    <div class="brochureClaim" id="a5a_claim">Dependent samples a.k.a paired data</div>
+	<div class="brochureClaim" id="a5b_claim"><ul><li>Same measurement twice under different conditions or times.</li></ul></div>
+	<div class="brochureClaim" id="a5c_claim"><ul><li>Pair similar individuals with each receiving different treatments.</li></ul></div>
+	<div class="brochureClaim" id="a5d_claim"><ul><li>Two different variables measured for each individual.</li></ul></div>
+</div>
+
+</div> <!-- brochureBody -->
+</div> <!-- brochure -->
+
+
+</body>
+</html>
