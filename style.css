@@ -1,0 +1,630 @@
+* { margin:0; padding:0; }
+
+
+/* ----------------------------- */
+/*  body  */
+
+body {
+    background: #fff;
+	font: 12px "Helvetica-Neue", "Arial", sans-serif;
+    width: 1100px;
+	font-weight: normal;
+	color: #000;
+	margin-top:20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/* ----------------------------- */
+/* header  */
+
+#header {
+	position: absolute;
+}
+
+#header h1 {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Arial", sans-serif;
+	font-weight: 300;
+    font-size: 24px;
+    color:#000;
+}
+
+#header h2 {
+	margin-top:-4px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Arial", sans-serif;
+	font-weight: 300;
+    font-size: 24px;
+    color:#000;
+}
+
+#header h3 {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Arial", sans-serif;
+	font-weight: 300;
+    font-size: 11px;
+    color:#aaa;
+}
+
+
+/* ----------------------------- */
+/* intro  */
+
+#intro {
+	font-family: "Helvetica-Neue", "Arial", sans-serif;
+    margin-left: 344px;
+    margin-bottom: 30px;
+	color: #777;
+    width: 600px;
+    line-height: 1.8;
+}
+
+#intro p {
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+#intro strong {
+    font-weight:bold;
+	color: #000;
+}
+
+#intro a { text-decoration:underline; color: #77a; border:none; }
+#intro a:hover   { text-decoration:underline; color: #58f; }
+
+
+/* ----------------------------- */
+/* main  */
+
+#main {
+	width: 1100px;
+	border-top: 2px solid #000;
+}
+
+
+/* ----------------------------- */
+/* brochure  */
+
+#brochure {
+	width: 344px;
+	font-size: 12px;
+	line-height: 1;
+	color: #777;
+}
+
+.brochureHeader {
+	font-weight: bold;
+	color: #000;
+	font-size:14px;
+	margin-top: -18px;
+	margin-bottom:4px;
+}
+
+.brochureBody {
+	padding-top:16px;
+	border-right: 1px solid #000;
+}
+
+.brochureIdea {
+	width: 300px;
+	margin-left:25px;
+	margin-bottom:20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #ddd;
+}
+
+.brochureIdea b {
+	font-weight: bold;
+	color: #222;
+}
+
+.brochureNumber {
+	position: absolute;
+	margin-top: 1px;
+	margin-left: -25px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000;
+}
+
+.brochureComment {
+	margin-top: 6px;
+	line-height: 1.7;
+}
+
+.brochureClaim {
+	margin-top: 6px;
+	line-height: 1.7;
+}
+
+.brochureClaimActive {
+	color: #58f;
+	background-color: #fff;
+}
+
+.brochureClaim li {
+	margin-left: 20px;
+}
+
+
+/* ----------------------------- */
+/* controls  */
+
+.c_adjustablePercent {
+	color: #58f;
+	border-bottom: 1px dashed #58f;
+}
+
+.adjustablePercentSliderHelp {
+	position:absolute;
+	color: #aaa;
+	font-size: 9px;
+	text-align:center;
+	margin-top:-12px;
+	width:134px;
+}
+
+.c_adjustableNumber {
+	color: #58f;
+	border-bottom: 1px dashed #58f;
+}
+
+.adjustableNumberHelp {
+	position:absolute;
+	color: #aaa;
+	font-size: 9px;
+}
+
+.c_toggle {
+	color: #58f;
+	border-bottom: 1px dashed #58f;
+	cursor: pointer;
+}
+
+.c_checkbox {
+	position:absolute;
+}
+
+
+/* ----------------------------- */
+/* values  */
+
+.adjustableValue {
+	color: #58f;
+	border-bottom: 1px dashed #58f;
+}
+
+.derivedValue {
+	color: #c47b26;
+	font-weight: bold;
+}
+
+
+/* ----------------------------- */
+/* analysis  */
+
+#analyses {
+}
+
+.analysis {
+	position:absolute;
+	display: none;
+	margin-top: 24px;
+	padding-left:20px;
+	margin-left: 370px;
+	width: 420px;
+	font-size: 12px;
+	color: #777;
+}
+
+.analysis h2 {
+	font-size:13px;
+	font-weight:bold;
+	margin-left:-20px;
+	margin-bottom:5px;
+	color: #000;
+}
+
+.analysisSection {
+	margin-bottom:20px;
+}
+
+.analysisText {
+	line-height: 1.6;
+}
+
+.c_backgroundHighlight {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.analysisSubtext {
+	line-height: 1.6;
+	margin-left:10px;
+	color: #bbb;
+	font-size: 11px;
+}
+
+.analysisContext {
+	margin-left:90px;
+	margin-bottom:36px;
+}
+
+.analysisContextIcon {
+	position:absolute;
+	margin-left: -90px;
+	margin-top:-17px;
+	width:80px;
+	text-align: center;
+}
+
+.analysisContextDynamicIcon {
+	position:absolute;
+	margin-left: -90px;
+	margin-top:-17px;
+	width:80px;
+	height:52px;
+}
+
+#initialAnalysis {
+	position:absolute;
+	margin-top: 80px;
+	margin-left: 320px;
+	width: 680px;
+	text-align: center;
+	font-size: 13px;
+	color: #999;
+}
+
+#defaultAnalysis {
+	position:absolute;
+	display: none;
+	margin-top: 25px;
+	margin-left: 370px;
+	color: #999;
+}
+
+.result {
+	font-size: 24px;
+	font-weight: bold;
+	color: #58f;
+}
+
+.resultUnits {
+	font-size: 14px;
+	font-weight: bold;
+	color: #58f;
+}
+
+
+/* ----------------------------- */
+/* edit  */
+
+.analysisEditButton {
+	color: #58f;
+	border-bottom: 1px solid #58f;
+	cursor: pointer;
+}
+
+.editorContainer {
+	position: absolute;
+	margin-left:-20px;
+	margin-top:20px;
+	display: none;
+}
+
+.editorControl {
+	color: #58f;
+	border-bottom: 1px solid #58f;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: normal;
+	margin-left:5px;
+	margin-right:5px;
+}
+
+.editorControlDisabled {
+	color: #bbb;
+	border-bottom: 1px solid #bbb;
+}
+
+.editorErrorMessage {
+	color: #f00;
+	font-size: 12px;
+	font-weight: bold;
+	margin-left:5px;
+	margin-right:5px;
+}
+
+.editorSuccessMessage {
+	color: #3a3;
+	font-size: 12px;
+	font-weight: bold;
+	margin-left:5px;
+	margin-right:5px;
+}
+
+
+/* ----------------------------- */
+/* sidebar  */
+
+.sidebars {
+}
+
+.sidebar {
+	display: none;
+	position: absolute;
+	width: 280px;
+	margin-left: 420px;
+	border-left: 1px solid #ddd;
+	padding-left: 10px;
+	color: #aaa;
+	font-size: 11px;
+	line-height: 1.4;
+}
+
+.sidebar strong {
+	font-weight: normal;
+	color: #000;
+}
+
+.sidebar p {
+	margin-bottom: 8px;
+}
+
+.sidebar a {
+	color: #999;
+}
+
+.sidebar ul {
+	margin-bottom: 8px;
+}
+
+.sidebar li {
+	margin-left:10px;
+	list-style-type: none;
+}
+
+.sidebar h3 {
+	font-size: 11px;
+	font-weight:bold;
+	margin-bottom:8px;
+	color: #000;
+}
+
+.sidebar h4 {
+	font-size: 11px;
+	font-weight:bold;
+	margin-top:16px;
+	margin-bottom:8px;
+	color: #000;
+}
+
+.sidebar table {
+	margin-bottom: 10px;
+	margin-left: -2px;
+}
+
+.sidebar th {
+	padding: 2px 3px 2px 3px;
+	border-bottom: 1px solid #ddd;
+	font-weight: normal;
+	text-align: right;
+}
+
+.sidebar td {
+	padding: 1px 3px 1px 3px;
+	text-align: right;
+}
+
+.sidebar .tightTable td {
+	padding: 1px 0px 1px 0px;
+	text-align: left;
+}
+
+.sidebar .tableTotal td {
+	border-top: 1px solid #ddd;
+	color: #444;
+}
+
+
+/* ----------------------------- */
+/* v_tableGraph  */
+
+.tableGraphBarDiv {
+	height: 6px;
+	background-color: #aaa;
+	margin-top:1px;
+}
+
+.sidebarTableRowHighlighted td {
+	color: #c47b26;
+}
+
+.sidebarTableRowBold td {
+	color: #000;
+}
+
+.sidebarTableRowHighlighted .tableGraphBarDiv {
+	background-color: #c47b26;
+}
+
+.sidebarTableRowBold .tableGraphBarDiv {
+	background-color: #444;
+}
+
+
+/* ----------------------------- */
+/* equipmentGrid  */
+
+.equipmentGrid {
+	width: 400px;
+	height: 190px;
+	margin-top: 20px;
+}
+
+.c_equipment {
+	position: absolute;
+}
+
+.c_equipment img {
+	display: block;
+}
+
+.c_equipment p {
+	text-align:center;
+	font-size: 11px;
+	color: #888;
+	margin-top: 3px;
+}
+
+.c_equipment .equipmentSubtitle {
+	color: #ccc;
+	margin-top:2px;
+}
+
+p.c_equipmentHighlighted {
+	color: #000;
+}
+
+
+/* ----------------------------- */
+/* equivalentGrid  */
+
+.equivalentGrid {
+	width: 400px;
+	height: 175px;
+	margin-left: 30px;
+}
+
+.equivalentItem {
+	position:absolute;
+	width:170px;
+	margin-top: 12px;
+}
+
+.equivalentItem p {
+	font-size: 10px;
+	color: #999;
+	margin-top: 2px;
+}
+
+.equivalentResult {
+	font-size: 36px;
+	font-weight: bold;
+	color: #58f;
+}
+
+.equivalentUnits {
+	font-size: 14px;
+	font-weight: bold;
+	color: #58f;
+}
+
+.equivalentOr {
+	position: absolute;
+	margin-left: 178px;
+	margin-top: 123px;
+	font-weight: bold;
+	font-size: 11px;
+	color: #444;
+}
+
+.bulbArrow {
+	position: absolute;
+	margin-left: 176px;
+	margin-top: 55px;
+}
+
+
+/* ----------------------------- */
+/* v_barGraph  */
+
+.v_replacedBulbsBarGraph {
+	width: 220px;
+	height: 142px;
+}
+
+.barGraphBar {
+	background-color: #eee;
+}
+
+.barGraphSelectedBar {
+	background-color: #c47b26;
+}
+
+.barGraphLabel {
+	text-align: center;
+	color: #ccc;
+	font-size: 10px;
+}
+
+.barGraphAxisLabel {
+	text-align: center;
+	color: #ccc;
+	width:220px;
+	font-size: 11px;
+}
+
+
+/* ----------------------------- */
+/* v_powerPlants  */
+
+.v_powerPlants {
+	width: 80px;
+	height: 52px;
+}
+
+
+/* ----------------------------- */
+/* endUse  */
+
+.endUse {
+	margin-top: 10px;
+	margin-left: 30px;
+	height:230px;
+}
+
+.endUseComment {
+	font-size: 11px;
+	color: #999;
+}
+
+.endUseComment .result {
+	font-size: 11px;
+}
+
+
+/* ----------------------------- */
+/* constants  */
+
+#constants {
+	display: none;
+}
+
+.constantHighlighted {
+	color: #c60;
+}
+
+.constantSource {
+	font-weight: bold;
+	color: #c60;
+}
+
+
+/* ----------------------------- */
+/* cursor  */
+
+.cursorDragHorizontal {
+	cursor: pointer;
+	cursor: move;
+	cursor: col-resize;
+}
+
+
+/* ----------------------------- */
+/* misc  */
+
+img { border:none; }
+
+a { text-decoration:underline; color: #35a; border:none; }
+a:hover   { text-decoration:underline; color: #58f; }
